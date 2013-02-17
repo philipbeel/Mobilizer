@@ -46,7 +46,9 @@ body {
 		display: inline;
 		float: left;
 	}
-		.primary-navigation a {
+		.primary-navigation a,
+		.primary-navigation a:active,
+		.primary-navigation a:visited {
 			color: #FFF;
 			display: inline-block;
 			width: 100px;
@@ -87,7 +89,8 @@ body {
 .primary-navigation.mobilized {
 	position: absolute;	
 	right: 0px;
-	height: 100%;
+	min-height: 1000px;
+	display: block;
 	width: 150px;
 	border-bottom: 0 none;
 	z-index:5;
