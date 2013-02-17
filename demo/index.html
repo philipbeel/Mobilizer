@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Mobilizer - Responsive navigation demo</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		
+		<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="navigation-wrapper">
+			<!-- Primary navigation -->
+			<nav id="primary-navigation" class="primary-navigation clearfix">
+				<ul class="clearfix">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<!-- Mobile navigation controller -->
+			<nav id="mobile-navigaiton-controller" class="primary-navigation clearfix panel transition">
+				<ul id="primary-navigation-control" class="clearfix">
+					<li><a href="#" class="primary-navigation-control">Menu</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="content panel transition">
+			<p><strong>Mobillize is a responsive menu jQuery plugin, it uses a combination of CSS3 and Javascript to implement the 'drawer' navigation design pattern. Try out the demo by resizing your demo to less than 600px and watch the navigation.</strong></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus varius cursus. In varius dictum odio, at pellentesque purus lacinia eu. In hac habitasse platea dictumst. Morbi vulputate sagittis velit ut vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tempus neque sit amet risus facilisis nec ullamcorper velit luctus. Aliquam pulvinar vehicula felis, at hendrerit sapien volutpat eu. Suspendisse id libero neque, pellentesque rhoncus libero. Pellentesque mollis lacinia placerat. Nullam nibh leo, accumsan pulvinar porttitor ut, tristique eget mi. Proin urna quam, faucibus ac tincidunt nec, bibendum vel risus. Aliquam dui ante, pellentesque vel accumsan eget, vulputate ac orci.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus varius cursus. In varius dictum odio, at pellentesque purus lacinia eu. In hac habitasse platea dictumst. Morbi vulputate sagittis velit ut vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tempus neque sit amet risus facilisis nec ullamcorper velit luctus. Aliquam pulvinar vehicula felis, at hendrerit sapien volutpat eu. Suspendisse id libero neque, pellentesque rhoncus libero. Pellentesque mollis lacinia placerat. Nullam nibh leo, accumsan pulvinar porttitor ut, tristique eget mi. Proin urna quam, faucibus ac tincidunt nec, bibendum vel risus. Aliquam dui ante, pellentesque vel accumsan eget, vulputate ac orci.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus varius cursus. In varius dictum odio, at pellentesque purus lacinia eu. In hac habitasse platea dictumst. Morbi vulputate sagittis velit ut vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tempus neque sit amet risus facilisis nec ullamcorper velit luctus. Aliquam pulvinar vehicula felis, at hendrerit sapien volutpat eu. Suspendisse id libero neque, pellentesque rhoncus libero. Pellentesque mollis lacinia placerat. Nullam nibh leo, accumsan pulvinar porttitor ut, tristique eget mi. Proin urna quam, faucibus ac tincidunt nec, bibendum vel risus. Aliquam dui ante, pellentesque vel accumsan eget, vulputate ac orci.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus varius cursus. In varius dictum odio, at pellentesque purus lacinia eu. In hac habitasse platea dictumst. Morbi vulputate sagittis velit ut vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tempus neque sit amet risus facilisis nec ullamcorper velit luctus. Aliquam pulvinar vehicula felis, at hendrerit sapien volutpat eu. Suspendisse id libero neque, pellentesque rhoncus libero. Pellentesque mollis lacinia placerat. Nullam nibh leo, accumsan pulvinar porttitor ut, tristique eget mi. Proin urna quam, faucibus ac tincidunt nec, bibendum vel risus. Aliquam dui ante, pellentesque vel accumsan eget, vulputate ac orci.</p>
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
+		<script src="../jquery.mobilizer.js"></script>
+		<!-- Initiate the responsive drawer -->
+		<script type="text/javascript">
+			$(function(){
+				$("#primary-navigation").mobilizer({
+					width: 600,
+					navigationControllerId: "mobile-navigaiton-controller"
+				});
+			});
+		</script>
+	</body>
+</html>
