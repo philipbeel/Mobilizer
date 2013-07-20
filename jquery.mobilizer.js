@@ -108,7 +108,7 @@
 			});
 
 			// Toggle the mobile navigation when the controller is clicked
-			controller.bind("click", function() {
+			controller.bind("click", function(e) {
 				e.preventDefault();
 				mobilizer.togglemobilizedNavigation();
 			});
