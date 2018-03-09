@@ -1,11 +1,7 @@
-Mobilizer - A jQuery plugin for mobile responsive navigation
-========================================================
+# Mobilizer - A jQuery plugin for mobile responsive navigation
 
-GitHub  : https://github.com/philipbeel/Mobilizer<br/>
-Demo    : http://plugins.theodin.co.uk/jquery/mobilizer/demo/index.html<br/>
-Website : http://theodin.co.uk<br/>
-Email   : contact@theodin.co.uk<br/>
-Twitter : [@philipbeel](https://twitter.com/philipbeel)<br/>
+Website : [http://theodin.co.uk](https://twitter.com/philipbeel)  
+Twitter : [@philipbeel](https://twitter.com/philipbeel)
 
 ### Descrpition
 Mobilizer is a responsive navigation jQuery plugin, it uses a combination of CSS3 and Javascript to implement the 'drawer' navigation design pattern. Try out the demo by resizing your demo to less than 600px and watch the navigation.
@@ -36,12 +32,14 @@ Initiate mobilizer on your selected navigation element, pass in the mobilizer re
 	});
 
 
-
 ### Plugin parameters
 
-	width: {Iteger},            		// Responsive threshold for mobile nav to display
-	navigationControllerId: {String}   // The ID for the responsive navigation controller
-
+```
+{
+	width: {Iteger},            		// Responsive threshold for mobile nav to display,
+	navigationControllerId: {String},   // The ID for the responsive navigation controller
+}
+```
 
 ### Changelog
 
